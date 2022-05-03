@@ -4,6 +4,7 @@
   "description": "Svelte integration for Apollo GraphQL.",
   "main": "dist/svelte-apollo-client.cjs.js",
   "repository": "https://github.com/unlocomqx/svelte-apollo-client",
+  "type": "module",
   "module": "dist/svelte-apollo-client.es.js",
   "types": "dist/svelte-apollo-client.d.ts",
   "keywords": [
@@ -13,6 +14,7 @@
   ],
   "scripts": {
     "build": "rollup -c",
+    "prepare": "npm run build",
     "dev": "rollup -c -w",
     "prepublishOnly": "npm run build && npm run test && npm run e2e:test",
     "test": "jest src/__tests__",
@@ -30,7 +32,7 @@
   "devDependencies": {
     "@apollo/client": "^3.3.20",
     "@rollup/plugin-typescript": "^8.2.1",
-    "@types/jest": "^26.0.23",
+    "@types/jest": "^27.5.0",
     "cypress": "^7.7.0",
     "graphql": "^15.5.0",
     "jest": "^27.0.4",

@@ -1,4 +1,4 @@
-import { gql, InMemoryCache } from "@apollo/client/core";
+import { gql, InMemoryCache } from "@apollo/client/core/index.js";
 import { SvelteApolloClient } from "../client";
 import { restoring } from "../restore";
 

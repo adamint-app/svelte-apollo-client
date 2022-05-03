@@ -1,5 +1,5 @@
-import type { FetchResult, Observable, ObservableQuery } from "@apollo/client";
-import { ApolloError } from "@apollo/client/core";
+import type { FetchResult, Observable, ObservableQuery } from "@apollo/client/core/index.js";
+import { ApolloError } from "@apollo/client/core/index.js";
 import { readable, Readable } from "svelte/store";
 
 // Match Apollo's hook approach, by returning a result with three states:

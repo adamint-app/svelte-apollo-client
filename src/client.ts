@@ -5,9 +5,9 @@ import type {
 	OperationVariables,
 	SubscriptionOptions,
 	WatchQueryOptions,
-} from "@apollo/client";
-import { FetchResult } from "@apollo/client";
-import { ApolloClient } from "@apollo/client/core";
+} from "@apollo/client/core/index.js";
+import { FetchResult } from "@apollo/client/core/index.js";
+import { ApolloClient } from "@apollo/client/core/index.js";
 import { MutateOptions } from "./mutation";
 import {
 	observableToReadable,

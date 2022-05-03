@@ -1,4 +1,4 @@
-import type { DataProxy, OperationVariables } from "@apollo/client";
+import type { DataProxy, OperationVariables } from "@apollo/client/core/index.js";
 import type { DocumentNode } from "graphql";
 import { onMount } from "svelte";
 import { SvelteApolloClient } from "./client";

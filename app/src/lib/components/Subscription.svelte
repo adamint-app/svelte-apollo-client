@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { browser } from "$app/env";
 	import { InMemoryCache } from "@apollo/client/cache";
-	import { gql, HttpLink, split } from "@apollo/client/core";
+	import { gql, HttpLink, split } from "@apollo/client/core/index.js";
 	import { WebSocketLink } from "@apollo/client/link/ws";
 	import { getMainDefinition } from "@apollo/client/utilities";
 	import { SvelteApolloClient } from "../../../../src";

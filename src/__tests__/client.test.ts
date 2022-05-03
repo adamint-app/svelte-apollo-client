@@ -1,4 +1,4 @@
-import { HttpLink, InMemoryCache } from "@apollo/client/core";
+import { HttpLink, InMemoryCache } from "@apollo/client/core/index.js";
 import { SvelteApolloClient } from "../client";
 
 describe("client", () => {

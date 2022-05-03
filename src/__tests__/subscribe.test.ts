@@ -1,4 +1,4 @@
-import { gql, InMemoryCache, Observable } from "@apollo/client/core";
+import { gql, InMemoryCache, Observable } from "@apollo/client/core/index.js";
 import { read } from "../__fixtures__/read";
 import { SvelteApolloClient } from "../client";
 import { observableToReadable } from "../observable";

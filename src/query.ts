@@ -1,4 +1,4 @@
-import type { WatchQueryOptions } from "@apollo/client";
+import type { WatchQueryOptions } from "@apollo/client/core/index.js";
 import type { DocumentNode } from "graphql";
 import { SvelteApolloClient } from "./client";
 import type { ReadableQuery } from "./observable";

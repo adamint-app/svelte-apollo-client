@@ -56,7 +56,7 @@ client.query(document[, options])
 ```svelte
 <script>
   import { client } from "$lib/client";
-  import { gql } from "@apollo/client/core";
+  import { gql } from "@apollo/client/core/core.cjs";
 
   let rates;
 
